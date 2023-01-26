@@ -103,8 +103,9 @@ h2, h3 {
 }
 
 .about-text {
-    /* width: 50%; */
+    width: 100%;
     text-align: justify;
+    padding: 5%;
 }
 
 .about-text p {
@@ -113,10 +114,10 @@ h2, h3 {
     margin-top: 2%;
 }
 
-.about-text {
-    /* width: 50%; */
+/* .about-text {
+    width: 50%;
     text-align: justify;
-}
+} */
 
 #about-img {
     width: 50%;
