@@ -1,0 +1,54 @@
+* {
+    border: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+
+body {
+    color: black;
+    font-family: Montserrat, sans-serif;
+    font-weight: 300;
+}
+
+h1 {
+    color: black;
+    font-family: Open Sans, sans-serif;
+}
+
+h2, h3 {
+    color: white;
+    font-family: Open Sans, sans-serif;  
+}
+
+.header-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: aqua;
+    margin: 30px;
+}
+
+.section-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: bisque;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: blueviolet;
+}
+
+.logo {
+    flex-direction: row;
+}
+
+.nav {
+    flex-direction: row;
+}
